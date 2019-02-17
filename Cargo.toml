@@ -1,0 +1,15 @@
+[package]
+name = "slc-signup"
+version = "0.1.0"
+authors = ["Russell Hay <me@russellhay.com>"]
+edition = "2018"
+
+[dependencies]
+lambda_runtime_client = "~0.2"
+lambda_runtime = "~0.2"
+lambda_http = "~0.1"
+slack-hook = "0.7"
+simple_logger = "~1"
+log = "~0.4"
+serde = "*"
+serde_derive = "*"
